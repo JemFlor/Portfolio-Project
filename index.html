@@ -12,34 +12,67 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Flow+Circular&family=Lexend+Exa:wght@300&family=UnifrakturMaguntia&family=Zilla+Slab+Highlight:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <title>About Jemima, Front-End Developer</title>
     <style>
-      h1,
-      h2 {
-        margin-top: 200px;
-        color: #c79101;
+      h1 {
+        margin-top: 110px;
+        color: orange;
+        font-family: "UnifrakturMaguntia", cursive;
       }
-      h2 {
-        margin-bottom: -200px;
-      }
+
       body {
-        background: #2d2d2d;
+        background: #4b422a;
       }
       h3 {
-        color: #c79101;
+        color: #6c757d;
+        margin-top: -10px;
+        font-family: "Zilla Slab Highlight", cursive;
+        font-size: 35px;
+        font-weight: 700;
+      }
+      @media (max-width: 576px) {
+        h3 {
+          font-size: 23px;
+        }
+      }
+      span {
+        font-family: "Flow Circular", cursive;
+        color: orange;
+        margin-left: 5px;
+        font-size: 10px;
+      }
+
+      a:hover {
+        background: orange;
+        cursor: pointer;
       }
     </style>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-dark sticky-top">
+    <nav class="navbar navbar-expand-lg bg-secondary sticky-top">
       <div class="container-fluid ms-2">
         <a
           class="navbar-brand"
           href="index.html"
           title="Front-End Developer"
-          style="color: beige"
-          >Jemima Morrish 👩🏼‍💻</a
-        >
+          style="
+            font-weight: 700;
+            font-family: Zilla Slab Highlight, cursive;
+            color: orange;
+          "
+          Zilla
+          Slab
+          Highlight,
+          cursive;
+          ;
+          >JM
+        </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -59,8 +92,13 @@
                 aria-current="page"
                 href="index.html"
                 title="Home"
-                style="color: beige"
-                >Home</a
+                style="
+                  font-size: 17px;
+
+                  font-family: 'Lexend Exa', sans-serif;
+                  color: #4b422a;
+                "
+                >Home <span>Home</span></a
               >
             </li>
             <li class="nav-item">
@@ -68,8 +106,14 @@
                 class="nav-link"
                 href="about.html"
                 title="About me"
-                style="color: beige"
-                >About Me</a
+                style="
+                  font-size: 17px;
+
+                  font-family: 'Lexend Exa', sans-serif;
+
+                  color: #4b422a;
+                "
+                >About Me <span>About Me</span></a
               >
             </li>
             <li class="nav-item">
@@ -77,8 +121,13 @@
                 class="nav-link"
                 href="mywork.html"
                 title="My Work"
-                style="color: beige"
-                >My Work</a
+                style="
+                  font-size: 17px;
+
+                  font-family: 'Lexend Exa', sans-serif;
+                  color: #4b422a;
+                "
+                >My Work <span>My Work</span></a
               >
             </li>
             <li class="nav-item">
@@ -86,17 +135,25 @@
                 class="nav-link"
                 href="contact.html"
                 title="Contact me"
-                style="color: beige"
-                >Contact Me</a
+                style="
+                  font-size: 17px;
+
+                  font-family: 'Lexend Exa', sans-serif;
+                  color: #4b422a;
+                "
+                >Contact Me <span>Contact Me</span></a
               >
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <h2>👋🏻 Hi I'm</h2>
+
     <h1>Jemima Morrish</h1>
 
-    <h3>Front-end developer from the UK 🇬🇧</h3>
+    <h3>Front-End Developer, based in the UK</h3>
+    <h4>
+      My name is Jemima Morrish and I am a Front-end developer, based in the UK
+    </h4>
   </body>
 </html>

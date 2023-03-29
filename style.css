@@ -16,12 +16,12 @@ h3 {
   margin: 0;
 }
 body h1 {
-  font-size: 85px;
+  font-size: 120px;
   font-weight: bold;
 }
 @media (max-width: 576px) {
   body h1 {
-    font-size: 50px;
+    font-size: 67px;
   }
 }
 h2 {
@@ -42,11 +42,6 @@ h2 {
 h3 {
   font-size: 24px;
   opacity: 0.7;
-}
-@media (max-width: 576px) {
-  h3 {
-    font-size: 15px;
-  }
 }
 
 .buttons {
@@ -137,4 +132,11 @@ p {
 .about-paragraphs {
   display: flex;
   margin: 30px 60px;
+}
+h4 {
+  color: orange;
+  text-align: center;
+  font-family: "Flow Circular", cursive;
+  max-width: 230px;
+  margin: 0 auto;
 }

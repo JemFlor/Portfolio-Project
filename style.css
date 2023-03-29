@@ -143,24 +143,24 @@ h4 {
 .icons {
   font-size: 25px;
 
-  margin-left: 10px;
-  color: darkgreen;
+  margin-left: 20px;
+  color: #a28c64;
   justify-content: space-evenly;
   font-family: "Flow Circular", cursive;
 }
 .fa-github:hover {
-  color: #aaaaaa;
+  color: #556266;
   cursor: pointer;
 }
 .fa-linkedin:hover {
-  color: #aaaaaa;
+  color: #556266;
   cursor: pointer;
 }
 .fa-twitter:hover {
-  color: #aaaaaa;
+  color: #556266;
   cursor: pointer;
 }
 .fa-envelope:hover {
-  color: #aaaaaa;
+  color: #556266;
   cursor: pointer;
 }

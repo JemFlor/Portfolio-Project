@@ -12,44 +12,66 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
+    <script
+      src="https://kit.fontawesome.com/9e0c31e610.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Antonio:wght@300&family=Flow+Circular&family=Lexend+Exa:wght@300&family=Monofett&family=Staatliches&family=Zilla+Slab+Highlight:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Antonio:wght@300&family=Flow+Circular&family=Lexend+Exa:wght@300&family=Monofett&family=Poiret+One&family=Staatliches&family=Zilla+Slab+Highlight:wght@400;700&display=swap"
       rel="stylesheet"
     />
     <title>About Jemima, Front-End Developer</title>
     <style>
-      body {
-        background: black;
-      }
       h1 {
-        color: darkgreen;
+        color: #4e4a38;
         font-family: "Antonio", sans-serif;
+        position: relative;
+        margin-bottom: -5px;
       }
+
+      body {
+        background: #1d2428;
+      }
+      h3 {
+        color: #a28c64;
+        margin: 0 auto;
+        font-family: "Antonio", sans-serif;
+        font-size: 45px;
+        position: relative;
+        margin-left: 15px;
+      }
+      @media (max-width: 576px) {
+        h3 {
+          font-size: 50px;
+        }
+      }
+
       span {
         font-family: "Flow Circular", cursive;
-        color: lightgreen;
+
+        color: #40441e;
         margin-left: 5px;
         font-size: 10px;
       }
 
       a:hover {
-        background: lightgreen;
+        background: #4e4a38;
         cursor: pointer;
       }
     </style>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-secondary sticky-top">
+    <nav class="navbar navbar-expand-lg bg-dark sticky-top">
       <div class="container-fluid ms-2">
         <a
           class="navbar-brand"
           href="index.html"
           title="Front-End Developer"
-          style="font-family: Antonio, sans-serif; color: #aaaaaa"
+          style="font-family: 'Poiret One', cursive; color: #736f33"
         >
-          Jemima Morrish
+          JemimaMorrish
         </a>
         <button
           class="navbar-toggler"
@@ -74,7 +96,7 @@
                   font-size: 17px;
 
                   font-family: 'Lexend Exa', sans-serif;
-                  color: black;
+                  color: #7c7f82;
                 "
                 >Home <span>Home</span></a
               >
@@ -83,15 +105,15 @@
               <a
                 class="nav-link"
                 href="about.html"
-                title="About me"
+                title="About "
                 style="
                   font-size: 17px;
 
                   font-family: 'Lexend Exa', sans-serif;
 
-                  color: black;
+                  color: #7c7f82;
                 "
-                >About Me <span>About Me</span></a
+                >About <span>About </span></a
               >
             </li>
             <li class="nav-item">
@@ -103,7 +125,7 @@
                   font-size: 17px;
 
                   font-family: 'Lexend Exa', sans-serif;
-                  color: black;
+                  color: #7c7f82;
                 "
                 >My Work <span>My Work</span></a
               >
@@ -112,14 +134,14 @@
               <a
                 class="nav-link"
                 href="contact.html"
-                title="Contact me"
+                title="Contact "
                 style="
                   font-size: 17px;
 
                   font-family: 'Lexend Exa', sans-serif;
-                  color: black;
+                  color: #7c7f82;
                 "
-                >Contact Me <span>Contact Me</span></a
+                >Contact <span>Contact </span></a
               >
             </li>
           </ul>
@@ -127,55 +149,15 @@
       </div>
     </nav>
 
-    <h1>About me</h1>
-    <h3>Front-end developer from the UK 🇬🇧</h3>
-    <div class="about-paragraphs text-center m-5">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-        aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
-        alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
-        blanditiis harum.
-      </p>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-4">
-          <img
-            src="images/yoga.png"
-            alt="yoga"
-            class="img-fluid p-2 shadow rounded"
-            title="Yoga"
-          />
-        </div>
-        <div class="col-sm-4">
-          <img
-            src="images/weather.png"
-            alt="weather"
-            class="img-fluid p-2 shadow rounded"
-            title="Weather"
-          />
-        </div>
-        <div class="col-sm-4">
-          <img
-            src="images/yogurt.png"
-            alt="yogurt"
-            class="img-fluid p-2 shadow rounded"
-            title="Yogurt"
-          />
-        </div>
-      </div>
+    <h1>About</h1>
+    <h3>Jemima Morrish</h3>
 
-      <div id="contact">
-        <h2>📮 Contact me</h2>
-        <a
-          href="mailto:jemimafm9963@gmail.com"
-          class="email-link"
-          id="contact"
-          title="Email Jemima"
-        >
-          jemimafm9963@gmail.com
-        </a>
-      </div>
+    <div class="icons">
+      code
+      <i class="fa-brands fa-github"></i>
+      <i class="fa-brands fa-linkedin"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-solid fa-envelope"></i>
     </div>
   </body>
 </html>

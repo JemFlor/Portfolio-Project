@@ -19,9 +19,9 @@ body h1 {
   font-size: 280px;
   font-weight: bold;
 }
-@media (max-width: 576px) {
+@media (max-width: 700px) {
   body h1 {
-    font-size: 67px;
+    font-size: 80px;
   }
 }
 h2 {
@@ -144,7 +144,7 @@ h4 {
   font-size: 25px;
 
   margin-left: 10px;
-  color: lightgreen;
+  color: darkgreen;
   justify-content: space-evenly;
   font-family: "Flow Circular", cursive;
 }

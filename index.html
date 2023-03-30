@@ -29,20 +29,24 @@
         font-family: "Antonio", sans-serif;
         position: relative;
         margin-bottom: -5px;
+        margin-right: 40px;
       }
 
       body {
-        background: #6f8274;
+        background: black;
       }
       h3 {
-        color: #ffc106;
-        margin-left: 15px;
+        color: #79817b;
+        margin-right: 40px;
         font-family: "Share Tech Mono", monospace;
         font-size: 35px;
         position: relative;
         text-align: right;
       }
-      span {
+      .one,
+      .two,
+      .three,
+      .four {
         font-family: "Flow Circular", cursive;
 
         color: green;
@@ -59,6 +63,9 @@
       }
       video {
         margin-top: -600px;
+      }
+      .dev {
+        background: #79817b;
       }
 
       a:hover {
@@ -93,7 +100,7 @@
     </style>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-warning sticky-top">
+    <nav class="navbar navbar-expand-lg bg-dark sticky-top">
       <div class="container-fluid ms-2">
         <a
           class="navbar-brand"
@@ -128,7 +135,7 @@
                   font-family: 'Lexend Exa', sans-serif;
                   color: #7c7f82;
                 "
-                >Home <span>Home</span></a
+                >Home <span class="one">Home</span></a
               >
             </li>
             <li class="nav-item">
@@ -143,7 +150,7 @@
 
                   color: #7c7f82;
                 "
-                >About <span>About </span></a
+                >About <span class="two">About </span></a
               >
             </li>
             <li class="nav-item">
@@ -157,7 +164,7 @@
                   font-family: 'Lexend Exa', sans-serif;
                   color: #7c7f82;
                 "
-                >My Work <span>My Work</span></a
+                >My Work <span class="three">My Work</span></a
               >
             </li>
             <li class="nav-item">
@@ -171,7 +178,7 @@
                   font-family: 'Lexend Exa', sans-serif;
                   color: #7c7f82;
                 "
-                >Contact <span>Contact </span></a
+                >Contact <span class="four">Contact </span></a
               >
             </li>
           </ul>
@@ -179,9 +186,9 @@
       </div>
     </nav>
     <div class="title">
-      <h1>FRONT-END DEVELOPER</h1>
+      <h1>FRONT-END <span class="dev">DEVELOPER</span></h1>
     </div>
-    <video width="600" height="450" autoplay muted loop>
+    <video width="50%" height="450" autoplay muted loop>
       <source src="images/logo.MP4" type="video/mp4" />
     </video>
     <div class="second-title">

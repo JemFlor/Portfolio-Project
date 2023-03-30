@@ -16,12 +16,12 @@ h2 {
   text-align: right;
 }
 body h1 {
-  font-size: 250px;
+  font-size: 210px;
   font-weight: bold;
 }
-@media (max-width: 700px) {
+@media (max-width: 576px) {
   body h1 {
-    font-size: 85px;
+    font-size: 100px;
   }
 }
 h2 {
@@ -163,22 +163,4 @@ h4 {
 .fa-envelope:hover {
   color: #556266;
   cursor: pointer;
-}
-.title {
-  width: 1000px;
-  animation: moveup 1s linear 1;
-  animation-delay: 1s;
-  visibility: hidden;
-  animation-fill-mode: forwards;
-  text-align: left;
-}
-@keyframes moveup {
-  0% {
-    transform: translateY(50px);
-    visibility: visible;
-  }
-  100% {
-    transform: translateY(50);
-    visibility: visible;
-  }
 }

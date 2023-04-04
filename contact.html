@@ -60,6 +60,21 @@
           text-align: center;
         }
       }
+      .contact,
+      .mail {
+        text-align: center;
+        color: #79817b;
+        font-size: 25px;
+        font-family: "Share Tech Mono", monospace;
+        margin: 0 auto;
+      }
+      @media (max-width: 600px) {
+        .contact {
+          font-size: 19px;
+          margin-top: 30px;
+          max-width: 450px;
+        }
+      }
 
       a:hover {
         background: black;
@@ -183,6 +198,19 @@
 
     <h1>Contact</h1>
     <h3>Jemima Morrish</h3>
+    <div class="contact">
+      <p>Send me an email or click the email icon!</p>
+    </div>
+    <div class="mail">
+      <a
+        style="color: green"
+        href="mailto:jemimafm9963@gmail.com"
+        class="email-link"
+        id="contact"
+        title="Email Jemima"
+        >jemimafm9963@gmail.com
+      </a>
+    </div>
 
     <div class="icons">
       <i class="fa-brands fa-github"></i>
@@ -191,16 +219,6 @@
       <i class="fa-solid fa-envelope"></i>
     </div>
 
-    <div id="contact">
-      <a
-        href="mailto:jemimafm9963@gmail.com"
-        class="email-link"
-        id="contact"
-        title="Email Jemima"
-      >
-        jemimafm9963@gmail.com
-      </a>
-    </div>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
       integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"

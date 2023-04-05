@@ -52,6 +52,7 @@
         margin-left: 5px;
         font-size: 10px;
       }
+
       @media (max-width: 760px) {
         h3 {
           font-size: 25px;
@@ -60,19 +61,30 @@
           text-align: center;
         }
       }
-      .contact,
+      .email-link {
+        font-size: 40px;
+        background-color: #013900;
+      }
+
       .mail {
         text-align: center;
         color: #79817b;
-        font-size: 25px;
+        font-size: 30px;
         font-family: "Share Tech Mono", monospace;
-        margin: 0 auto;
+
+        padding: 10px;
       }
+      .contact {
+        text-align: center;
+        color: #79817b;
+        font-size: 40px;
+        font-family: "Share Tech Mono", monospace;
+      }
+
       @media (max-width: 600px) {
         .contact {
-          font-size: 19px;
+          font-size: 50px;
           margin-top: 30px;
-          max-width: 450px;
         }
       }
 
@@ -94,12 +106,6 @@
         transition: ease-in-out 0.4s;
       }
       .fa-linkedin:hover {
-        cursor: pointer;
-        color: #79817b;
-        transition: ease-in-out 0.4s;
-      }
-
-      .fa-envelope:hover {
         cursor: pointer;
         color: #79817b;
         transition: ease-in-out 0.4s;
@@ -196,42 +202,49 @@
     <h1>Contact</h1>
     <h3>Jemima Morrish</h3>
     <div class="contact">
-      <p>Send me an email or click the email icon!</p>
+      <p>Get in touch!</p>
     </div>
-    <div class="mail">
-      <a
-        style="color: green"
-        href="mailto:jemimafm9963@gmail.com"
-        class="email-link"
-        id="contact"
-        title="Email Jemima"
-        >jemimafm9963@gmail.com
-      </a>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm" style="margin-top: 12px">
+          <div class="mail">
+            <a
+              style="color: green"
+              href="mailto:jemimafm9963@gmail.com"
+              class="email-link btn btn-branding"
+              id="contact"
+              title="Email Jemima"
+              >Contact <i class="fa-regular fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm">
+        <div class="mail" style="margin-top: 12px">
+          <a
+            style="color: green"
+            href="https://www.linkedin.com/in/jemima-morrish/"
+            class="email-link btn btn-branding"
+            id="contact"
+            title="Jemima's LinkedIn"
+            >LinkedIn <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
     </div>
 
-    <div class="icons">
-      <a
-        href="https://github.com/JemFlor"
-        target="_blank"
-        title="GitHub"
-        style="color: #013900"
-        ><i class="fa-brands fa-github"></i
-      ></a>
-
-      <a
-        href="mailto:jemimafm9963@gmail.com"
-        title="Email Jemima"
-        style="color: #013900"
-      >
-        <i class="fa-solid fa-envelope"></i
-      ></a>
-      <a
-        href="https://www.linkedin.com/in/jemima-morrish/"
-        target="_blank"
-        title="Linkedin"
-        style="color: #013900"
-        ><i class="fa-brands fa-linkedin"></i
-      ></a>
+    <div class="col-sm">
+      <div class="mail" style="margin-top: 12px">
+        <a
+          style="color: green"
+          href="mailto:jemimafm9963@gmail.com"
+          class="email-link btn btn-branding"
+          id="contact"
+          title="Email Jemima"
+          >GitHub <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
     </div>
 
     <script

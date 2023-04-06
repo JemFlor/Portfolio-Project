@@ -32,13 +32,14 @@
       }
       img {
         margin-top: 20px;
+        background-color: white;
       }
       img:hover {
-        opacity: 80%;
+        transform: scale(1.1);
       }
 
       body {
-        background: black;
+        background: white;
       }
       h3 {
         color: #79817b;
@@ -68,9 +69,11 @@
       }
 
       a:hover {
-        background: black;
         cursor: pointer;
         transition: ease-in-out 0.3s;
+      }
+      .nav-item:hover {
+        background: black;
       }
       .icons {
         margin-top: 70px;
@@ -100,13 +103,13 @@
         color: #7c7f82;
         font-family: "Share Tech Mono", monospace;
         max-width: 600px;
-        margin-top: 10px;
+        margin-top: 18px;
         font-size: 20px;
       }
     </style>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-dark sticky-top">
+    <nav class="navbar navbar-expand-lg bg-light sticky-top">
       <div class="container-fluid ms-2">
         <a
           class="navbar-brand"
@@ -202,7 +205,7 @@
             <img
               src="images/project1.png"
               alt="Weather App"
-              class="img-fluid p-2 shadow rounded border border-success"
+              class="img-fluid p-2 shadow rounded"
               title="Weather App"
           /></a>
           <div class="weather">
@@ -217,7 +220,7 @@
             <img
               src="images/project2.png"
               alt="World Clock"
-              class="img-fluid p-2 shadow rounded border border-success"
+              class="img-fluid p-2 shadow rounded"
               title="World Clock"
           /></a>
           <div class="clock">

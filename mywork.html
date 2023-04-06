@@ -30,6 +30,12 @@
         position: relative;
         margin-bottom: -5px;
       }
+      img {
+        margin-top: 30px;
+      }
+      img:hover {
+        opacity: 80%;
+      }
 
       body {
         background: black;
@@ -88,6 +94,13 @@
         cursor: pointer;
         color: #79817b;
         transition: ease-in-out 0.4s;
+      }
+      .weather,
+      .clock {
+        color: #7c7f82;
+        font-family: "Share Tech Mono", monospace;
+        max-width: 600px;
+        margin-top: 10px;
       }
     </style>
   </head>
@@ -183,21 +196,34 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-6">
-          <img
-            src="images/project1.png"
-            alt="Weather App"
-            class="img-fluid p-2 shadow rounded border border-success"
-            title="Weather App"
-          />
+          <a href="https://weather-app-7t.netlify.app" target="_blank">
+            <img
+              src="images/project1.png"
+              alt="Weather App"
+              class="img-fluid p-2 shadow rounded border border-success"
+              title="Weather App"
+          /></a>
+          <div class="weather">
+            This was my very first project. It is a weather app which gives live
+            data for any location in the world. I used HTML, CSS and Javascript.
+            Click on the image to check it out!
+          </div>
         </div>
 
         <div class="col-sm-6">
-          <img
-            src="images/project2.png"
-            alt="World Clock"
-            class="img-fluid p-2 shadow rounded border border-success"
-            title="World Clock"
-          />
+          <a href="https://horologium.netlify.app" target="_blank">
+            <img
+              src="images/project2.png"
+              alt="World Clock"
+              class="img-fluid p-2 shadow rounded border border-success"
+              title="World Clock"
+          /></a>
+          <div class="clock">
+            This was my second project. It is a world clock app which presents
+            the exact time for any of the cities in the dropdown menu. I used
+            HTML, CSS, Javascript and BootStrap. Click on the image to check it
+            out!
+          </div>
         </div>
       </div>
 
